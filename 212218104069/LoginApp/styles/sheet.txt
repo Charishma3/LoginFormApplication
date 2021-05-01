@@ -1,0 +1,70 @@
+QPushButton[text="Login"]
+{
+background-color: red;
+border-style: outset;
+border-width: 2px;
+border-radius: 10px;
+min-width: 10em;
+padding: 6px;
+}
+
+
+QPushButton[text="Login"]:hover
+{
+color:white;
+background-color:green;
+}
+
+
+QPushButton[text="Cancel"]
+{
+background-color:blue;
+border-style: outset;
+border-width: 2px;
+border-radius: 10px;
+min-width: 10em;
+padding: 6px;
+}
+
+
+QPushButton[text="Cancel"]:hover
+{
+color:white;
+background-color:green;
+}
+
+
+QGroupBox {
+background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 #E0E0A3, stop: 1 #FFFFFF);
+border: 2px solid gray;
+border-radius: 5px;
+margin-top: 10px;
+}
+
+
+QGroupBox::title {
+subcontrol-origin: margin;
+subcontrol-position: top center;
+padding: 0px 5px 0px 5px;
+
+}
+
+QLineEdit {
+border: 2px solid gray;
+border-radius: 10px;
+padding: 0 8px;
+background: white;
+selection-background-color: darkgray;
+}
+
+QLabel{
+color:brown;
+}
+
+QMessageBox {
+background-color: #FDD1C3;
+}
+
+QMessageBox QLabel {
+color: #5B246D;
+}
